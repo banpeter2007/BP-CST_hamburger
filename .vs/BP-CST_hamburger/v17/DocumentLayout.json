@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BanPeter\\Documents\\Github_12D\\BP-CST_hamburger\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93B58C43-019D-4516-9B42-3B2614F47B1D}|BP-CST_hamburger\\BP-CST_hamburger.csproj|c:\\users\\banpeter\\documents\\github_12d\\bp-cst_hamburger\\bp-cst_hamburger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B58C43-019D-4516-9B42-3B2614F47B1D}|BP-CST_hamburger\\BP-CST_hamburger.csproj|solutionrelative:bp-cst_hamburger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B58C43-019D-4516-9B42-3B2614F47B1D}|BP-CST_hamburger\\BP-CST_hamburger.csproj|c:\\users\\banpeter\\documents\\github_12d\\bp-cst_hamburger\\bp-cst_hamburger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{93B58C43-019D-4516-9B42-3B2614F47B1D}|BP-CST_hamburger\\BP-CST_hamburger.csproj|solutionrelative:bp-cst_hamburger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\BanPeter\\Documents\\Github_12D\\BP-CST_hamburger\\BP-CST_hamburger\\Form1.cs",
+              "RelativeDocumentMoniker": "BP-CST_hamburger\\Form1.cs",
+              "ToolTip": "C:\\Users\\BanPeter\\Documents\\Github_12D\\BP-CST_hamburger\\BP-CST_hamburger\\Form1.cs",
+              "RelativeToolTip": "BP-CST_hamburger\\Form1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:49:51.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\BanPeter\\Documents\\Github_12D\\BP-CST_hamburger\\BP-CST_hamburger\\Form1.cs",
+              "RelativeDocumentMoniker": "BP-CST_hamburger\\Form1.cs",
+              "ToolTip": "C:\\Users\\BanPeter\\Documents\\Github_12D\\BP-CST_hamburger\\BP-CST_hamburger\\Form1.cs [Design]",
+              "RelativeToolTip": "BP-CST_hamburger\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:49:31.052Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
