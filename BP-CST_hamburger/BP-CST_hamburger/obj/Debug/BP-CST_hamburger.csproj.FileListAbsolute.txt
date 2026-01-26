@@ -1,0 +1,11 @@
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\bin\Debug\BP-CST_hamburger.exe.config
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\bin\Debug\BP-CST_hamburger.exe
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\bin\Debug\BP-CST_hamburger.pdb
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP-CST_hamburger.csproj.AssemblyReference.cache
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP_CST_hamburger.Form1.resources
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP_CST_hamburger.Properties.Resources.resources
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP-CST_hamburger.csproj.GenerateResource.cache
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP-CST_hamburger.csproj.CoreCompileInputs.cache
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP-CST_hamburger.exe
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP-CST_hamburger.pdb
+C:\Users\CsapoTamas\Desktop\BP-CST_hamburger\BP-CST_hamburger\BP-CST_hamburger\obj\Debug\BP-CST_hamburger.exe.config
