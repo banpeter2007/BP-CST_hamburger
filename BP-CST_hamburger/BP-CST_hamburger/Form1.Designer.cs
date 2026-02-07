@@ -29,16 +29,14 @@
         private void InitializeComponent()
         {
             this.cim = new System.Windows.Forms.Label();
-            this.burgerkepek = new System.Windows.Forms.PictureBox();
             this.marhaBox = new System.Windows.Forms.CheckBox();
             this.rendeles_cim = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.name = new System.Windows.Forms.Label();
-            this.ar = new System.Windows.Forms.Label();
             this.csirkeBox = new System.Windows.Forms.CheckBox();
             this.salsaBox = new System.Windows.Forms.CheckBox();
             this.jalapenoBox = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.kukoricaBox = new System.Windows.Forms.CheckBox();
             this.gombaBox = new System.Windows.Forms.CheckBox();
@@ -47,51 +45,42 @@
             this.uborkaBox = new System.Windows.Forms.CheckBox();
             this.paraBox = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.bbqBox = new System.Windows.Forms.CheckBox();
             this.chilicheeseBox = new System.Windows.Forms.CheckBox();
             this.majonezBo = new System.Windows.Forms.CheckBox();
             this.mustarBox = new System.Windows.Forms.CheckBox();
             this.ketchupBox = new System.Windows.Forms.CheckBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.baconBox = new System.Windows.Forms.CheckBox();
             this.mozzarellaBox = new System.Windows.Forms.CheckBox();
             this.cheddarBox = new System.Windows.Forms.CheckBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.nev_label = new System.Windows.Forms.Label();
-            this.bk_label = new System.Windows.Forms.Label();
-            this.ideje_label = new System.Windows.Forms.Label();
-            this.cvc_label = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.burger1_label = new System.Windows.Forms.Label();
-            this.burger2_label = new System.Windows.Forms.Label();
-            this.burger3_label = new System.Windows.Forms.Label();
-            this.burger4_label = new System.Windows.Forms.Label();
-            this.burger5_label = new System.Windows.Forms.Label();
-            this.burger6_label = new System.Windows.Forms.Label();
-            this.db1 = new System.Windows.Forms.TextBox();
-            this.db2 = new System.Windows.Forms.TextBox();
-            this.db3 = new System.Windows.Forms.TextBox();
-            this.db4 = new System.Windows.Forms.TextBox();
-            this.db5 = new System.Windows.Forms.TextBox();
-            this.db6 = new System.Windows.Forms.TextBox();
-            this.nev = new System.Windows.Forms.TextBox();
-            this.szam = new System.Windows.Forms.TextBox();
-            this.ido = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.kod = new System.Windows.Forms.TextBox();
+            this.ido = new System.Windows.Forms.TextBox();
+            this.szam = new System.Windows.Forms.TextBox();
+            this.cvc_label = new System.Windows.Forms.Label();
+            this.ideje_label = new System.Windows.Forms.Label();
+            this.bk_label = new System.Windows.Forms.Label();
+            this.nev_label = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.osszeg = new System.Windows.Forms.TextBox();
             this.ft = new System.Windows.Forms.Label();
-            this.prev = new System.Windows.Forms.Button();
-            this.next = new System.Windows.Forms.Button();
+            this.osszeg = new System.Windows.Forms.TextBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.hozaad = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.burgerkepek)).BeginInit();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.hamburger_ara = new System.Windows.Forms.TextBox();
+            this.megrendelesBtn = new System.Windows.Forms.Button();
+            this.logoBox = new System.Windows.Forms.PictureBox();
+            this.burgerkepek = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.burgerkepek)).BeginInit();
             this.SuspendLayout();
             // 
             // cim
@@ -105,15 +94,6 @@
             this.cim.TabIndex = 0;
             this.cim.Text = "BurgerDash";
             this.cim.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // burgerkepek
-            // 
-            this.burgerkepek.Location = new System.Drawing.Point(330, 166);
-            this.burgerkepek.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.burgerkepek.Name = "burgerkepek";
-            this.burgerkepek.Size = new System.Drawing.Size(560, 448);
-            this.burgerkepek.TabIndex = 1;
-            this.burgerkepek.TabStop = false;
             // 
             // marhaBox
             // 
@@ -147,29 +127,6 @@
             this.label3.Size = new System.Drawing.Size(162, 29);
             this.label3.TabIndex = 4;
             this.label3.Text = "Alapanyagok";
-            // 
-            // name
-            // 
-            this.name.AutoSize = true;
-            this.name.Font = new System.Drawing.Font("Perpetua Titling MT", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(493, 123);
-            this.name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(220, 33);
-            this.name.TabIndex = 5;
-            this.name.Text = "( buger neve )";
-            // 
-            // ar
-            // 
-            this.ar.AutoSize = true;
-            this.ar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ar.Location = new System.Drawing.Point(552, 620);
-            this.ar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.ar.Name = "ar";
-            this.ar.Size = new System.Drawing.Size(125, 25);
-            this.ar.TabIndex = 6;
-            this.ar.Text = "( burger ára )";
-            this.ar.Click += new System.EventHandler(this.label5_Click);
             // 
             // csirkeBox
             // 
@@ -220,6 +177,15 @@
             this.groupBox1.Text = "Húsfélék";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Location = new System.Drawing.Point(247, 65);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(8, 8);
+            this.groupBox6.TabIndex = 9;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "groupBox6";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.kukoricaBox);
@@ -240,7 +206,7 @@
             // kukoricaBox
             // 
             this.kukoricaBox.AutoSize = true;
-            this.kukoricaBox.Location = new System.Drawing.Point(164, 100);
+            this.kukoricaBox.Location = new System.Drawing.Point(164, 102);
             this.kukoricaBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.kukoricaBox.Name = "kukoricaBox";
             this.kukoricaBox.Size = new System.Drawing.Size(94, 24);
@@ -306,6 +272,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.bbqBox);
             this.groupBox3.Controls.Add(this.chilicheeseBox);
             this.groupBox3.Controls.Add(this.majonezBo);
             this.groupBox3.Controls.Add(this.mustarBox);
@@ -320,6 +287,18 @@
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Szószok";
+            // 
+            // bbqBox
+            // 
+            this.bbqBox.AutoSize = true;
+            this.bbqBox.Location = new System.Drawing.Point(109, 127);
+            this.bbqBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bbqBox.Name = "bbqBox";
+            this.bbqBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bbqBox.Size = new System.Drawing.Size(62, 24);
+            this.bbqBox.TabIndex = 14;
+            this.bbqBox.Text = "bbq";
+            this.bbqBox.UseVisualStyleBackColor = true;
             // 
             // chilicheeseBox
             // 
@@ -368,16 +347,28 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.baconBox);
             this.groupBox4.Controls.Add(this.mozzarellaBox);
             this.groupBox4.Controls.Add(this.cheddarBox);
             this.groupBox4.Location = new System.Drawing.Point(22, 598);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox4.Size = new System.Drawing.Size(300, 80);
+            this.groupBox4.Size = new System.Drawing.Size(300, 95);
             this.groupBox4.TabIndex = 19;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Sajtok";
+            this.groupBox4.Text = "Egyéb";
+            // 
+            // baconBox
+            // 
+            this.baconBox.AutoSize = true;
+            this.baconBox.Location = new System.Drawing.Point(98, 61);
+            this.baconBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.baconBox.Name = "baconBox";
+            this.baconBox.Size = new System.Drawing.Size(79, 24);
+            this.baconBox.TabIndex = 2;
+            this.baconBox.Text = "bacon";
+            this.baconBox.UseVisualStyleBackColor = true;
             // 
             // mozzarellaBox
             // 
@@ -403,21 +394,12 @@
             this.cheddarBox.UseVisualStyleBackColor = true;
             this.cheddarBox.CheckedChanged += new System.EventHandler(this.chedarBox_CheckedChanged);
             // 
-            // groupBox6
-            // 
-            this.groupBox6.Location = new System.Drawing.Point(247, 65);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(8, 8);
-            this.groupBox6.TabIndex = 9;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "groupBox6";
-            // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.listBox1);
             this.groupBox5.Controls.Add(this.kod);
             this.groupBox5.Controls.Add(this.ido);
             this.groupBox5.Controls.Add(this.szam);
-            this.groupBox5.Controls.Add(this.nev);
             this.groupBox5.Controls.Add(this.cvc_label);
             this.groupBox5.Controls.Add(this.ideje_label);
             this.groupBox5.Controls.Add(this.bk_label);
@@ -431,34 +413,37 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Felhasználói adatok";
             // 
-            // nev_label
+            // listBox1
             // 
-            this.nev_label.AutoSize = true;
-            this.nev_label.Location = new System.Drawing.Point(7, 53);
-            this.nev_label.Name = "nev_label";
-            this.nev_label.Size = new System.Drawing.Size(40, 20);
-            this.nev_label.TabIndex = 21;
-            this.nev_label.Text = "Név:";
-            this.nev_label.Click += new System.EventHandler(this.label1_Click_1);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(46, 49);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(226, 24);
+            this.listBox1.TabIndex = 34;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // bk_label
+            // kod
             // 
-            this.bk_label.AutoSize = true;
-            this.bk_label.Location = new System.Drawing.Point(7, 85);
-            this.bk_label.Name = "bk_label";
-            this.bk_label.Size = new System.Drawing.Size(144, 30);
-            this.bk_label.TabIndex = 22;
-            this.bk_label.Text = "Kártyaszám:";
-            this.bk_label.Click += new System.EventHandler(this.label1_Click_2);
+            this.kod.Location = new System.Drawing.Point(83, 145);
+            this.kod.Name = "kod";
+            this.kod.Size = new System.Drawing.Size(189, 26);
+            this.kod.TabIndex = 32;
             // 
-            // ideje_label
+            // ido
             // 
-            this.ideje_label.AutoSize = true;
-            this.ideje_label.Location = new System.Drawing.Point(7, 118);
-            this.ideje_label.Name = "ideje_label";
-            this.ideje_label.Size = new System.Drawing.Size(102, 20);
-            this.ideje_label.TabIndex = 23;
-            this.ideje_label.Text = "Lejárati ideje:";
+            this.ido.Location = new System.Drawing.Point(115, 113);
+            this.ido.Name = "ido";
+            this.ido.Size = new System.Drawing.Size(157, 26);
+            this.ido.TabIndex = 31;
+            // 
+            // szam
+            // 
+            this.szam.Location = new System.Drawing.Point(105, 81);
+            this.szam.Name = "szam";
+            this.szam.Size = new System.Drawing.Size(167, 26);
+            this.szam.TabIndex = 30;
+            this.szam.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // cvc_label
             // 
@@ -470,159 +455,41 @@
             this.cvc_label.Text = "CVC-kód:";
             this.cvc_label.Click += new System.EventHandler(this.label1_Click_3);
             // 
-            // groupBox7
+            // ideje_label
             // 
-            this.groupBox7.Controls.Add(this.db5);
-            this.groupBox7.Controls.Add(this.db4);
-            this.groupBox7.Controls.Add(this.db3);
-            this.groupBox7.Controls.Add(this.db2);
-            this.groupBox7.Controls.Add(this.db1);
-            this.groupBox7.Controls.Add(this.burger6_label);
-            this.groupBox7.Controls.Add(this.burger5_label);
-            this.groupBox7.Controls.Add(this.burger4_label);
-            this.groupBox7.Controls.Add(this.burger3_label);
-            this.groupBox7.Controls.Add(this.burger2_label);
-            this.groupBox7.Controls.Add(this.burger1_label);
-            this.groupBox7.Location = new System.Drawing.Point(898, 359);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox7.Size = new System.Drawing.Size(279, 251);
-            this.groupBox7.TabIndex = 21;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Kosár:";
+            this.ideje_label.AutoSize = true;
+            this.ideje_label.Location = new System.Drawing.Point(7, 118);
+            this.ideje_label.Name = "ideje_label";
+            this.ideje_label.Size = new System.Drawing.Size(102, 20);
+            this.ideje_label.TabIndex = 23;
+            this.ideje_label.Text = "Lejárati ideje:";
             // 
-            // burger1_label
+            // bk_label
             // 
-            this.burger1_label.AutoSize = true;
-            this.burger1_label.Location = new System.Drawing.Point(7, 41);
-            this.burger1_label.Name = "burger1_label";
-            this.burger1_label.Size = new System.Drawing.Size(76, 20);
-            this.burger1_label.TabIndex = 22;
-            this.burger1_label.Text = "1. burger:";
+            this.bk_label.AutoSize = true;
+            this.bk_label.Location = new System.Drawing.Point(7, 85);
+            this.bk_label.Name = "bk_label";
+            this.bk_label.Size = new System.Drawing.Size(96, 20);
+            this.bk_label.TabIndex = 22;
+            this.bk_label.Text = "Kártyaszám:";
+            this.bk_label.Click += new System.EventHandler(this.label1_Click_2);
             // 
-            // burger2_label
+            // nev_label
             // 
-            this.burger2_label.AutoSize = true;
-            this.burger2_label.Location = new System.Drawing.Point(8, 76);
-            this.burger2_label.Name = "burger2_label";
-            this.burger2_label.Size = new System.Drawing.Size(76, 20);
-            this.burger2_label.TabIndex = 23;
-            this.burger2_label.Text = "2. burger:";
-            // 
-            // burger3_label
-            // 
-            this.burger3_label.AutoSize = true;
-            this.burger3_label.Location = new System.Drawing.Point(8, 110);
-            this.burger3_label.Name = "burger3_label";
-            this.burger3_label.Size = new System.Drawing.Size(76, 20);
-            this.burger3_label.TabIndex = 24;
-            this.burger3_label.Text = "3. burger:";
-            // 
-            // burger4_label
-            // 
-            this.burger4_label.AutoSize = true;
-            this.burger4_label.Location = new System.Drawing.Point(8, 143);
-            this.burger4_label.Name = "burger4_label";
-            this.burger4_label.Size = new System.Drawing.Size(76, 20);
-            this.burger4_label.TabIndex = 25;
-            this.burger4_label.Text = "4. burger:";
-            // 
-            // burger5_label
-            // 
-            this.burger5_label.AutoSize = true;
-            this.burger5_label.Location = new System.Drawing.Point(7, 178);
-            this.burger5_label.Name = "burger5_label";
-            this.burger5_label.Size = new System.Drawing.Size(76, 20);
-            this.burger5_label.TabIndex = 26;
-            this.burger5_label.Text = "5. burger:";
-            // 
-            // burger6_label
-            // 
-            this.burger6_label.AutoSize = true;
-            this.burger6_label.Location = new System.Drawing.Point(7, 212);
-            this.burger6_label.Name = "burger6_label";
-            this.burger6_label.Size = new System.Drawing.Size(76, 20);
-            this.burger6_label.TabIndex = 27;
-            this.burger6_label.Text = "6. burger:";
-            // 
-            // db1
-            // 
-            this.db1.Location = new System.Drawing.Point(197, 38);
-            this.db1.Name = "db1";
-            this.db1.Size = new System.Drawing.Size(36, 26);
-            this.db1.TabIndex = 28;
-            // 
-            // db2
-            // 
-            this.db2.Location = new System.Drawing.Point(197, 70);
-            this.db2.Name = "db2";
-            this.db2.Size = new System.Drawing.Size(36, 26);
-            this.db2.TabIndex = 29;
-            // 
-            // db3
-            // 
-            this.db3.Location = new System.Drawing.Point(197, 104);
-            this.db3.Name = "db3";
-            this.db3.Size = new System.Drawing.Size(36, 26);
-            this.db3.TabIndex = 29;
-            // 
-            // db4
-            // 
-            this.db4.Location = new System.Drawing.Point(197, 141);
-            this.db4.Name = "db4";
-            this.db4.Size = new System.Drawing.Size(36, 26);
-            this.db4.TabIndex = 30;
-            // 
-            // db5
-            // 
-            this.db5.Location = new System.Drawing.Point(197, 179);
-            this.db5.Name = "db5";
-            this.db5.Size = new System.Drawing.Size(36, 26);
-            this.db5.TabIndex = 29;
-            // 
-            // db6
-            // 
-            this.db6.Location = new System.Drawing.Point(1095, 570);
-            this.db6.Name = "db6";
-            this.db6.Size = new System.Drawing.Size(36, 26);
-            this.db6.TabIndex = 29;
-            // 
-            // nev
-            // 
-            this.nev.Location = new System.Drawing.Point(53, 50);
-            this.nev.Name = "nev";
-            this.nev.Size = new System.Drawing.Size(219, 26);
-            this.nev.TabIndex = 29;
-            // 
-            // szam
-            // 
-            this.szam.Location = new System.Drawing.Point(105, 81);
-            this.szam.Name = "szam";
-            this.szam.Size = new System.Drawing.Size(167, 26);
-            this.szam.TabIndex = 30;
-            this.szam.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            // 
-            // ido
-            // 
-            this.ido.Location = new System.Drawing.Point(115, 113);
-            this.ido.Name = "ido";
-            this.ido.Size = new System.Drawing.Size(157, 26);
-            this.ido.TabIndex = 31;
-            // 
-            // kod
-            // 
-            this.kod.Location = new System.Drawing.Point(83, 145);
-            this.kod.Name = "kod";
-            this.kod.Size = new System.Drawing.Size(189, 26);
-            this.kod.TabIndex = 32;
+            this.nev_label.AutoSize = true;
+            this.nev_label.Location = new System.Drawing.Point(7, 53);
+            this.nev_label.Name = "nev_label";
+            this.nev_label.Size = new System.Drawing.Size(40, 20);
+            this.nev_label.TabIndex = 21;
+            this.nev_label.Text = "Név:";
+            this.nev_label.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.ft);
             this.groupBox8.Controls.Add(this.osszeg);
             this.groupBox8.Controls.Add(this.groupBox9);
-            this.groupBox8.Location = new System.Drawing.Point(898, 620);
+            this.groupBox8.Location = new System.Drawing.Point(898, 365);
             this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -630,22 +497,6 @@
             this.groupBox8.TabIndex = 30;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Fizetendő összeg:";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Location = new System.Drawing.Point(247, 65);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(8, 8);
-            this.groupBox9.TabIndex = 9;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "groupBox9";
-            // 
-            // osszeg
-            // 
-            this.osszeg.Location = new System.Drawing.Point(14, 27);
-            this.osszeg.Name = "osszeg";
-            this.osszeg.Size = new System.Drawing.Size(219, 26);
-            this.osszeg.TabIndex = 30;
             // 
             // ft
             // 
@@ -657,35 +508,84 @@
             this.ft.Text = "Ft";
             this.ft.Click += new System.EventHandler(this.label1_Click_4);
             // 
-            // prev
+            // osszeg
             // 
-            this.prev.Font = new System.Drawing.Font("Ravie", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prev.Location = new System.Drawing.Point(381, 622);
-            this.prev.Name = "prev";
-            this.prev.Size = new System.Drawing.Size(56, 43);
-            this.prev.TabIndex = 31;
-            this.prev.Text = "<";
-            this.prev.UseVisualStyleBackColor = true;
+            this.osszeg.Location = new System.Drawing.Point(14, 27);
+            this.osszeg.Name = "osszeg";
+            this.osszeg.Size = new System.Drawing.Size(219, 26);
+            this.osszeg.TabIndex = 30;
             // 
-            // next
+            // groupBox9
             // 
-            this.next.Font = new System.Drawing.Font("Ravie", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.next.Location = new System.Drawing.Point(778, 622);
-            this.next.Name = "next";
-            this.next.Size = new System.Drawing.Size(56, 43);
-            this.next.TabIndex = 32;
-            this.next.Text = ">";
-            this.next.UseVisualStyleBackColor = true;
+            this.groupBox9.Location = new System.Drawing.Point(247, 65);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(8, 8);
+            this.groupBox9.TabIndex = 9;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "groupBox9";
             // 
             // hozaad
             // 
             this.hozaad.Font = new System.Drawing.Font("Segoe Script", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.hozaad.Location = new System.Drawing.Point(541, 653);
+            this.hozaad.Location = new System.Drawing.Point(530, 653);
             this.hozaad.Name = "hozaad";
-            this.hozaad.Size = new System.Drawing.Size(147, 27);
+            this.hozaad.Size = new System.Drawing.Size(147, 40);
             this.hozaad.TabIndex = 33;
             this.hozaad.Text = "Hozzáadás";
             this.hozaad.UseVisualStyleBackColor = true;
+            this.hozaad.Click += new System.EventHandler(this.hozaad_Click);
+            // 
+            // listBox2
+            // 
+            this.listBox2.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 30;
+            this.listBox2.Location = new System.Drawing.Point(435, 113);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(456, 64);
+            this.listBox2.TabIndex = 34;
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
+            // 
+            // hamburger_ara
+            // 
+            this.hamburger_ara.Location = new System.Drawing.Point(557, 622);
+            this.hamburger_ara.Name = "hamburger_ara";
+            this.hamburger_ara.Size = new System.Drawing.Size(100, 26);
+            this.hamburger_ara.TabIndex = 35;
+            // 
+            // megrendelesBtn
+            // 
+            this.megrendelesBtn.Font = new System.Drawing.Font("Stencil", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.megrendelesBtn.Location = new System.Drawing.Point(909, 455);
+            this.megrendelesBtn.Name = "megrendelesBtn";
+            this.megrendelesBtn.Size = new System.Drawing.Size(285, 53);
+            this.megrendelesBtn.TabIndex = 36;
+            this.megrendelesBtn.Text = "Megrendel";
+            this.megrendelesBtn.UseVisualStyleBackColor = true;
+            this.megrendelesBtn.Click += new System.EventHandler(this.megrendelesBtn_Click);
+            // 
+            // logoBox
+            // 
+            this.logoBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.logoBox.Image = global::BP_CST_hamburger.Properties.Resources.logo;
+            this.logoBox.Location = new System.Drawing.Point(933, 537);
+            this.logoBox.Name = "logoBox";
+            this.logoBox.Size = new System.Drawing.Size(230, 143);
+            this.logoBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logoBox.TabIndex = 37;
+            this.logoBox.TabStop = false;
+            // 
+            // burgerkepek
+            // 
+            this.burgerkepek.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.burgerkepek.Image = global::BP_CST_hamburger.Properties.Resources.deluxe_csirkemell_szendvics;
+            this.burgerkepek.Location = new System.Drawing.Point(330, 166);
+            this.burgerkepek.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.burgerkepek.Name = "burgerkepek";
+            this.burgerkepek.Size = new System.Drawing.Size(560, 448);
+            this.burgerkepek.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.burgerkepek.TabIndex = 1;
+            this.burgerkepek.TabStop = false;
             // 
             // Form1
             // 
@@ -693,19 +593,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.logoBox);
+            this.Controls.Add(this.megrendelesBtn);
+            this.Controls.Add(this.hamburger_ara);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.hozaad);
-            this.Controls.Add(this.next);
-            this.Controls.Add(this.prev);
             this.Controls.Add(this.groupBox8);
-            this.Controls.Add(this.db6);
-            this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.ar);
-            this.Controls.Add(this.name);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.rendeles_cim);
             this.Controls.Add(this.burgerkepek);
@@ -714,7 +612,6 @@
             this.Name = "Form1";
             this.Text = "BurgerDash";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.burgerkepek)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -725,10 +622,10 @@
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.burgerkepek)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -741,8 +638,6 @@
         private System.Windows.Forms.CheckBox marhaBox;
         private System.Windows.Forms.Label rendeles_cim;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label name;
-        private System.Windows.Forms.Label ar;
         private System.Windows.Forms.CheckBox csirkeBox;
         private System.Windows.Forms.CheckBox salsaBox;
         private System.Windows.Forms.CheckBox jalapenoBox;
@@ -768,20 +663,6 @@
         private System.Windows.Forms.Label bk_label;
         private System.Windows.Forms.Label ideje_label;
         private System.Windows.Forms.Label cvc_label;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Label burger1_label;
-        private System.Windows.Forms.Label burger2_label;
-        private System.Windows.Forms.Label burger3_label;
-        private System.Windows.Forms.Label burger4_label;
-        private System.Windows.Forms.Label burger5_label;
-        private System.Windows.Forms.Label burger6_label;
-        private System.Windows.Forms.TextBox db1;
-        private System.Windows.Forms.TextBox db2;
-        private System.Windows.Forms.TextBox db3;
-        private System.Windows.Forms.TextBox db4;
-        private System.Windows.Forms.TextBox db5;
-        private System.Windows.Forms.TextBox db6;
-        private System.Windows.Forms.TextBox nev;
         private System.Windows.Forms.TextBox szam;
         private System.Windows.Forms.TextBox ido;
         private System.Windows.Forms.TextBox kod;
@@ -789,9 +670,14 @@
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.TextBox osszeg;
         private System.Windows.Forms.Label ft;
-        private System.Windows.Forms.Button prev;
-        private System.Windows.Forms.Button next;
         private System.Windows.Forms.Button hozaad;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.TextBox hamburger_ara;
+        private System.Windows.Forms.CheckBox bbqBox;
+        private System.Windows.Forms.CheckBox baconBox;
+        private System.Windows.Forms.Button megrendelesBtn;
+        private System.Windows.Forms.PictureBox logoBox;
     }
 }
 
